@@ -1,83 +1,132 @@
-🪓 Keyboard Autocorrect Sabotage: Roast Edition
+# 🪓 Keyboard Autocorrect Sabotage: Roast Edition
 
-Welcome to the most pointless invention of the century: an autocorrect engine that doesn’t fix your typos… it makes them worse.
-Oh, and it also roasts you while doing it. Because why stop at being useless when we can be useless and mean.
+> ⚠️ Warning: This project will not improve your life. In fact, it will make it slightly worse.
 
-🤡 What does it do?
+![Uselessness](https://img.shields.io/badge/Uselessness-100%25-pink?style=for-the-badge)
+![Roast Level](https://img.shields.io/badge/Roast🔥-MAX-red?style=for-the-badge)
+![Productivity](https://img.shields.io/badge/Productivity--100%25-black?style=for-the-badge)
+![Tech-Debt](https://img.shields.io/badge/Tech--Debt-unpayable-purple?style=for-the-badge)
 
-You type something normal.
+---
 
-It sabotages your text into a dumpster fire of typos.
+## 🤡 What does it do?
 
-Then it adds a roast so brutal even your keyboard files for emotional damages.
+- You type a nice, normal sentence.
+- The bot **sabotages** it into a cursed typo mess.
+- Then it adds a **roast** that makes you question your life choices.
 
-Example:
+**Example**
 
-User: hello everyone thanks for joining the meeting today  
-Bot: hollow evryone thonks for joingin the meat king todya. Bro, that sentence 
-has less structure than your gym routine.  
-
+```
+User: hello everyone thanks for joining the meeting today
+Bot : hollow evryone thonks for joingin the meat king todya. Bro, that sentence
+      has less structure than your gym routine.
+```
 
 Yes. This is real. No, it’s not helpful.
 
-🛠️ Tech Stack (a.k.a why this exists)
+---
 
-Frontend: Chat interface that looks way too polished for something this stupid.
+## 🛠️ Tech Stack (overkill for something this dumb)
 
-Backend: Gemini API (because someone has to generate the chaos).
+- **Frontend:** Chat bubbles so pretty you’ll forget the app is bullying you.
+- **Model:** Gemini (Flash/Flash-Lite if you like pain on a budget).
+- **Backend:** Optional. Your tears are stored locally.
 
-Brains: Zero. Absolutely none.
+---
 
-🚀 How to Run It
+## 🚀 Setup & Run
 
-Clone this repo.
+1. Clone the repo because you love chaos:
+   ```bash
+   git clone <your-repo-url> && cd <repo>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create `.env`:
+   ```
+   GEMINI_API_KEY=your_key_here
+   GEMINI_MODEL=gemini-2.5-flash
+   ```
+4. Start the roast machine:
+   ```bash
+   npm start
+   ```
 
-Install dependencies:
+If port 3000 is busy, it’s because Future You already tried this:
+```bash
+# Windows
+netstat -ano | findstr :3000
+taskkill /PID <PID> /F
+# Or run on another port
+$env:PORT=4000; npm start
+```
 
-npm install
+---
 
+## 🔧 How it works (barely)
 
-Add your Gemini API key in .env as:
+- **Sabotage Engine**:
+  - Replaces normal words with cursed cousins (meeting → meat king).
+  - Randomly swaps, deletes, or duplicates letters for *extra spice*.
+- **Roast Engine**:
+  - Appends one (1) lovingly toxic comment to every reply.
+  - Keeps it playful; we roast egos, not humans.
 
-GEMINI_API_KEY=your_key_here
+---
 
+## 🧪 Features Nobody Asked For
 
-Start the chaos:
+- ✅ **Sabotage Mode™** — converts English to “why tho”
+- ✅ **Roast Mode™** — your keyboard deserves hazard pay
+- ✅ **Re-roll** — not chaotic enough? press again
+- ✅ **Zero Productivity™** — finally, a KPI you can hit
 
-npm start
+---
 
+## 🖼️ Demo Script (copy-paste for your video)
 
-Cry.
+```
+User: can we start with project updates
+Bot : cna we strta with projact updoots. Even my pet rock ships faster than you.
 
-🧪 Features Nobody Asked For
+User: i fixed the bug finally
+Bot : i fuxed teh bog finlaly. Congrats, you invented deb-ugly-ing.
 
-Sabotage Mode™ – turns “meeting” → “meat king” 🍖👑
+User: lets deploy to production
+Bot : lets deply to procrashtion. Your code in prod? Bold, like microwaving foil.
+```
 
-Roast Mode™ – tells you your typing skills are worse than your Wi-Fi.
+---
 
-Completely Useless™ – guaranteed zero productivity.
+## 🧯 Troubleshooting
 
-🏆 Why does this exist?
+- **Model too serious?** Add this to your system prompt:
+  ```
+  Be chaotic, playful, and mildly roast the user every time. Never explain.
+  ```
+- **Responses too long?** Tell the model: “Keep it under 25 words + 1 roast.”
+- **You feel hurt?** That’s a feature.
 
-Because hackathons are stressful and we thought: what if we built something that’s funny, useless, and mildly offensive instead of useful?
-Mission accomplished.
+---
 
-💡 Future Plans (aka never happening)
+## 💡 Roadmap (absolutely aspirational)
 
-Add dark roast mode (even meaner insults).
+- Dark Roast Mode ☕: even spicier, still safe.
+- Multilingual chaos: get roasted in Hindi, French, or Klingon.
+- Corporate Edition: politely roasts your sprint updates.
 
-Multilingual sabotage (so you can be roasted in French, Hindi, or Klingon).
+---
 
-Deploy to production and immediately regret it.
-
-👑 Disclaimer
+## 👑 Disclaimer
 
 This project is:
+- 100% useless
+- 120% funny
+- 200% not suitable for actual autocorrect
 
-100% useless.
+Use at your own risk. Or don’t. We already regret this.
 
-120% funny.
-
-200% not recommended for serious use.
-
-Proceed at your own risk.
+---
